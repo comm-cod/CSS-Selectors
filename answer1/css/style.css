@@ -1,0 +1,41 @@
+
+/* B.1 */
+nav a {
+  color: red;
+}
+/* B.2 */
+nav>h2 {
+  background-color: black;
+  color: white;
+}
+/* B.3 */
+div + p {
+  color: red;
+}
+/* C.1 */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+/* C.2 */
+a[class |='active'] {
+  color: blue;
+  text-decoration:underline;
+}
+/* C.3 */
+a[target |='_self'] {
+  background-color:bisque;
+}
+/* D.1 */
+p:last-child::after {
+  content: "...";
+}
+/* D.2 */
+li::marker { 
+  color: green;
+}
+/* D.3 */
+p:nth-child(even)::first-letter {
+  color: red;
+  font-size: 30px;
+}
